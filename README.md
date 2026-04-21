@@ -103,7 +103,18 @@ Stores and displays data remotely via mobile app.<br>
 <p align="justify">
 The working of the weather monitoring system begins with the collection of environmental data through various sensors. The DHT11 sensor measures temperature and humidity, the BMP180 sensor detects atmospheric pressure, the LDR sensor senses light intensity, and the rain sensor identifies rainfall. These sensors continuously gather real-time data from the surroundings.The ESP32 microcontroller acts as the brain of the system. It receives signals from all sensors, processes the data, and converts it into meaningful values. This processed data is then displayed on an LCD screen so users can directly view the readings.</p>
 <p align="justify">
-At the same time, the ESP32 uses its built-in Wi-Fi to transmit the data to the Blynk IoT cloud platform. This enables remote monitoring, where users can check live weather data on their mobile phones using the Blynk app.The system runs continuously and updates data at regular intervals. This real-time monitoring helps track environmental changes and supports better decision-making, especially in agriculture and environmental applications.</p>
+At the same time, the ESP32 uses its built-in Wi-Fi to transmit the data to the Blynk IoT cloud platform. This enables remote monitoring, where users can check live weather data on their mobile phones using the Blynk app.The system runs continuously and updates data at regular intervals. This real-time monitoring helps track environmental changes and supports better decision-making, especially in agriculture and environmental applications.</p><br>
+
+# Output<br>
+**LCD Display Output**
+<p align="center">
+  <img src="images/output%20in%20LCD.jpg" width="400">
+</p>
+
+<h3>Mobile App Output</h3>
+<p align="center">
+  <img src="images/output%20in%20Mobile%20App.jpg" width="400">
+</p><br>
 
 ## Features
 - Real-time weather monitoring
